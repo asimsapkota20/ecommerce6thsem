@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    
 @php
         $categories = \App\Models\Category::orderBy('priority')->get();
     @endphp
